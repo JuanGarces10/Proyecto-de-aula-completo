@@ -63,7 +63,6 @@ public class FrmLogin extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("© Programador Fantasma");
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carrito1.png"))); // NOI18N
 
@@ -92,7 +91,7 @@ public class FrmLogin extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addGap(193, 193, 193)
                 .addComponent(jLabel3)
-                .addContainerGap(128, Short.MAX_VALUE))
+                .addContainerGap(150, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                     .addContainerGap(196, Short.MAX_VALUE)
