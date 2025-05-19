@@ -8,7 +8,7 @@ import modelo.Cliente;
 
 /**
  *
- * @author ediso
+ * @author Usuario
  */
 public class InterCliente extends javax.swing.JInternalFrame {
 

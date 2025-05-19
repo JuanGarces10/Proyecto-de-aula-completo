@@ -23,7 +23,7 @@ import modelo.Producto;
 
 /**
  *
- * @author ediso
+ * @author Usuario
  */
 public class InterGestionarProducto extends javax.swing.JInternalFrame {
 
@@ -243,10 +243,8 @@ public class InterGestionarProducto extends javax.swing.JInternalFrame {
                         //Porcentaje IVA
                         if (iva.equalsIgnoreCase("No grava iva")) {
                             producto.setPorcentajeIva(0);
-                        } else if (iva.equalsIgnoreCase("12%")) {
-                            producto.setPorcentajeIva(12);
-                        } else if (iva.equalsIgnoreCase("14%")) {
-                            producto.setPorcentajeIva(14);
+                        } else if (iva.equalsIgnoreCase("19%")) {
+                            producto.setPorcentajeIva(19);
                         }
 
                         //idcategoria - cargar metodo que obtiene el id de categoria
@@ -443,13 +441,8 @@ public class InterGestionarProducto extends javax.swing.JInternalFrame {
                     case 0:
                         jComboBox_iva.setSelectedItem("No grava iva");
                         break;
-                    case 12:
-                        jComboBox_iva.setSelectedItem("12%");
-                        break;
-                    case 14:
-                        jComboBox_iva.setSelectedItem("14%");
-                        break;
-                    default:
+                    case 19:
+                        jComboBox_iva.setSelectedItem("19%");
                         jComboBox_iva.setSelectedItem("Seleccione iva:");
                         break;
                 }

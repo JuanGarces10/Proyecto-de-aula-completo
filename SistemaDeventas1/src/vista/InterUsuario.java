@@ -7,7 +7,7 @@ import modelo.Usuario;
 
 /**
  *
- * @author ediso
+ * @author Usuario
  */
 public class InterUsuario extends javax.swing.JInternalFrame {
     

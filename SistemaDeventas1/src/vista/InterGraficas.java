@@ -7,7 +7,7 @@ import static vista.FrmMenu.jDesktopPane_menu;
 
 /**
  *
- * @author edison Zambrano
+ * @author Usuario
  */
 public class InterGraficas extends javax.swing.JInternalFrame {
     

@@ -14,7 +14,7 @@ import modelo.Producto;
 
 /**
  *
- * @author ediso
+ * @author Usuario
  */
 public class InterProducto extends javax.swing.JInternalFrame {
 

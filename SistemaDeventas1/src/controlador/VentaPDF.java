@@ -101,11 +101,11 @@ public class VentaPDF {
             //agregar celdas
             Encabezado.addCell(img);
 
-            String ruc = "0987654321001";
-            String nombre = "Fantasma Cooporation";
+            String ruc = "123456789";
+            String nombre = "Proyecto aula";
             String telefono = "0987654321";
-            String direccion = "Tamarindo City";
-            String razon = "La magia de la programacion, esta en el poder de tu imaginacion";
+            String direccion = "Cartagena city";
+            String razon = "Proyecto de aula";
 
             Encabezado.addCell("");//celda vacia
             Encabezado.addCell("RUC: " + ruc + "\nNOMBRE: " + nombre + "\nTELEFONO: " + telefono + "\nDIRECCION: " + direccion + "\nRAZON SOCIAL: " + razon);

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Edison
+ * @author Usuario
  */
 public class InterGraficaVentas extends javax.swing.JInternalFrame {
 
